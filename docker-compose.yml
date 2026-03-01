@@ -1,6 +1,6 @@
 services:
   exporter:
-    build: .
+    image: ghcr.io/xeome/binance-prometheus:latest
     restart: unless-stopped
     env_file: .env
     ports:
