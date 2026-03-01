@@ -46,7 +46,7 @@ class BinanceLoanClient:
             api_secret=config.api_secret,
             base_path=CRYPTO_LOAN_REST_API_PROD_URL,
             retries=0,  # disable SDK-internal retries; backoff owns all retry logic
-            timeout=config.request_timeout_ms / 1000,  # SDK expects seconds
+            timeout=config.request_timeout_ms,  # SDK expects milliseconds
         )
         self._client = CryptoLoan(config_rest_api=configuration)
         # Cache storage: {cache_key: (timestamp, data)}
