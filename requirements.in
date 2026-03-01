@@ -1,0 +1,5 @@
+prometheus-client>=0.21.0
+python-dotenv>=1.0.0
+backoff>=2.2.1
+binance-sdk-crypto-loan>=4.3.0
+binance-common>=3.0.0

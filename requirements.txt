@@ -1,0 +1,75 @@
+aiohappyeyeballs==2.6.1
+    # via aiohttp
+aiohttp==3.13.3
+    # via
+    #   binance-common
+    #   binance-sdk-crypto-loan
+aiosignal==1.4.0
+    # via aiohttp
+annotated-types==0.7.0
+    # via pydantic
+attrs==25.4.0
+    # via aiohttp
+backoff==2.2.1
+    # via -r requirements.in
+binance-common==3.6.0
+    # via
+    #   -r requirements.in
+    #   binance-sdk-crypto-loan
+binance-sdk-crypto-loan==4.3.0
+    # via -r requirements.in
+certifi==2026.2.25
+    # via requests
+charset-normalizer==3.4.4
+    # via requests
+frozenlist==1.8.0
+    # via
+    #   aiohttp
+    #   aiosignal
+idna==3.11
+    # via
+    #   requests
+    #   yarl
+multidict==6.7.1
+    # via
+    #   aiohttp
+    #   yarl
+prometheus-client==0.24.1
+    # via -r requirements.in
+propcache==0.4.1
+    # via
+    #   aiohttp
+    #   yarl
+pycryptodome==3.23.0
+    # via
+    #   binance-common
+    #   binance-sdk-crypto-loan
+pydantic==2.12.5
+    # via
+    #   binance-common
+    #   binance-sdk-crypto-loan
+pydantic-core==2.41.5
+    # via pydantic
+python-dotenv==1.2.2
+    # via -r requirements.in
+requests==2.32.5
+    # via
+    #   binance-common
+    #   binance-sdk-crypto-loan
+typing-extensions==4.15.0
+    # via
+    #   pydantic
+    #   pydantic-core
+    #   typing-inspection
+typing-inspection==0.4.2
+    # via pydantic
+urllib3==2.6.3
+    # via requests
+websocket-client==1.9.0
+    # via binance-sdk-crypto-loan
+websockets==15.0.1
+    # via
+    #   binance-common
+    #   binance-sdk-crypto-loan
+yarl==1.23.0
+    # via aiohttp
